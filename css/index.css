@@ -2,6 +2,7 @@ body {
     background: linear-gradient(90deg, #7F26EA 0%, #FF89D8 100%);
     font-family: sans-serif;
 }
+
 .jumbotron {
     background: linear-gradient(90deg, #7F26EA 0%, #FF89D8 100%);
     font-family: sans-serif;
@@ -16,6 +17,11 @@ body {
  color: #fff;
 }
 
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 li {
     color: #fff;
 }
@@ -25,9 +31,11 @@ footer {
   background-color: #f2f2f2;
   padding: 25px;
 }
+
 .container-fluid{
 color: #fff;
 }
+
 .navbar-brand {
 color: ;
 font-weight: 700;

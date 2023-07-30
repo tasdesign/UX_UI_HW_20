@@ -60,6 +60,15 @@ body > footer > ul > li:nth-child(2) > a {
     color: #fff;
  text-decoration: none;
 }
+body > div > footer > ul > li:nth-child(1) > a {
+    color: #fff;
+    text-decoration: none; 
+}
+body > div > footer > ul > li:nth-child(2) > a {
+    color: #fff;
+    text-decoration: none; 
+}
+
 
 .container-fluid{
 color: #fff;

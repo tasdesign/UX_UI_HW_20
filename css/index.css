@@ -95,6 +95,7 @@ font-weight: 700;
 }
 
 .mb-5 {
+    margin-top: 3rem !important;
     margin-bottom: 3rem !important;
 }
 
@@ -168,3 +169,43 @@ body > div.container.px-5.mb-5 > div.row.gx-5.justify-content-center > div > div
     width: auto;
     height: auto;
 }
+
+.Button {
+    align-self: stretch; 
+    padding: 0.75rem; 
+    padding-inline: 2.5rem;
+    background: #0099FF; 
+    box-shadow: 0rem 0.25rem rgba(0, 0, 0, 0.25); 
+    border-radius: 0.5rem; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 0.625rem; 
+    display: inline-flex;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    align-items: center;
+    justify-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0.4rem rgba(0, 0, 0, 0.195); 
+    gap: 0.625rem; 
+    display: inline-flex;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    color: white; 
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    word-wrap: break-word;
+  }
+
+
+  button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+  }
+
+  body > div.container.px-5.mb-5 > div.row.gx-5.justify-content-center > div {
+    padding: 6rem 6rem;
+  }
